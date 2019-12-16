@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3dcc05e9-c35d-4aad-b312-2697a301b17c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1UjDfvDR3ZVtbUdLp2HWOw3kVmd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SuperDev-IT/session_11_web" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dcc05e9-c35d-4aad-b312-2697a301b17c" name="Default Changelist" comment="" />
+      <created>1575861217647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575861217647</updated>
+      <workItem from="1575861218908" duration="2998000" />
+      <workItem from="1576048758236" duration="1198000" />
+      <workItem from="1576114561715" duration="625000" />
+      <workItem from="1576220152601" duration="2705000" />
+      <workItem from="1576458752402" duration="632000" />
+      <workItem from="1576463154838" duration="10547000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="454" y="145" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576486572317">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state x="454" y="145" key="FileChooserDialogImpl/0.27.1366.688@0.27.1366.688" timestamp="1576486572317" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1576459603966" />
+    <state x="520" y="214" width="382" height="365" key="NewPhpClassDialog" timestamp="1576464751531">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="520" y="214" width="382" height="365" key="NewPhpClassDialog/67.27.1299.741@67.27.1299.741" timestamp="1576464751531" />
+    <state x="530" y="323" width="363" height="147" key="NewPhpFileDialog" timestamp="1576463811582">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="530" y="323" width="363" height="147" key="NewPhpFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1576463811582" />
+    <state x="387" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576458753073">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="387" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1576458753073" />
+    <state x="379" y="89" key="search.everywhere.popup" timestamp="1575862301369">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1575862301369" />
+  </component>
+</project>
