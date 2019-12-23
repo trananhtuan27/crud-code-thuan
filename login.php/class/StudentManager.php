@@ -71,4 +71,19 @@ class StudentManager
         return $arr;
     }
 
+    public function search($keyword)
+    {
+        $listStudent = $this->readFile();
+
+        $searchArray = [];
+
+        foreach ($listStudent as $student) {
+            if ($student['name'] == $keyword) {
+                $student = new Student($student['name'], $student['age'], $student['address'], $student['group']);
+                array_push($searchArray, $student);
+            }
+        }
+      return $searchArray;
+    }
+
 }

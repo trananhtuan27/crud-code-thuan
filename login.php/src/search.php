@@ -1,35 +1,30 @@
+
 <?php
-include_once "class/Student.php";
-include_once "class/StudentManager.php";
+include_once "../class/Student.php";
+include_once "../class/StudentManager.php";
 
-$studentManager = new \Controller\StudentManager("data.json");
-//$studentManager->readFile(); SAI
-$students = $studentManager->getList();
+if ($_SERVER['REQUEST_METHOD'] === "GET") {
+    $pathFile = "../data.json";
+    $keyword = $_GET['keyword'];
+    $studentmanager = new \Controller\StudentManager($pathFile);
+    $studentmanager->search($keyword);
 
+}
 ?>
-
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Coáo lỗi, tức là người dùng chưa nhập liệu mà đã nhấn submit.
+            if (empty($search)) {mpatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
 
-    <div class="row">
-        <div class="col-12 page-title mb-2">
-            <h1>Users</h1>
-            <form class="form-inline my-2 my-lg-0" method="get" action="src/search.php">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="keyword">
-                <button type="submit" class="btn btn-outline-primary">Search</button>
-            </form>
-            <button type="button" class="btn btn-outline-primary"><a href="src/add.php">Create</a>  </button>
-        </div>
         <div class="col-12 col-md-12">
             <table class="table">
                 <thead class="thead-light">
@@ -52,10 +47,6 @@ $students = $studentManager->getList();
                         <td><?php echo $student->age ?></td>
                         <td><?php echo $student->address ?></td>
                         <td><?php echo $student->group ?></td>
-                        <td><a href="src/delete.php?index=<?php echo $key ?>"
-                               onclick="return confirm('Bạn chắc chắn muốn xóa không')"
-                               class="btn btn-danger">Delete</a></td>
-                        <td><a href="src/edit.php?index=<?php echo $key ?>" class="btn btn-dark">Edit</a></td>
                     </tr>
                 <?php endforeach; ?>
                 </tbody>
